@@ -13,11 +13,11 @@ public class RailBlock : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-        transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+        transform.Translate(Vector3.back * moveSpeed * Time.deltaTime);
 	}
 
     public void SetScale(int minLength, int maxLength) {
-        transform.parent.localScale = new Vector3(1.0f, 1.0f, Random.Range(minLength, maxLength));
+        transform.parent.localScale = new Vector3(0.5f, 1.0f, Random.Range(minLength, maxLength));
     }
 
     public void SetLane(Transform t)

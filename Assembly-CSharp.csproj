@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C5DB0139-152C-1F45-84F5-C27BB263893C}</ProjectGuid>
+    <ProjectGuid>{BBF5DFEF-5EC6-4AFB-B7CC-CA215EDAAB85}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\RailBlock.cs" />
      <Compile Include="Assets\Scripts\WorldSpawner.cs" />
  <Reference Include="UnityEngine.UI">

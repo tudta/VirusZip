@@ -38,8 +38,8 @@ public class WorldSpawner : MonoBehaviour
     }
 
     public void SpawnRail(Transform t) {
-        GameObject gO = (GameObject) Instantiate(railBlock, new Vector3(t.position.x, t.position.y, t.position.z + 2.0f), t.rotation);
-        RailBlock rB = gO.GetComponent<RailBlock>();
+        GameObject gO = (GameObject) Instantiate(railBlock, new Vector3(t.position.x, t.position.y, t.position.z), t.rotation);
+        RailBlock rB = gO.GetComponentInChildren<RailBlock>();
         rB.SetScale(2, 31);
         rB.SetLane(t);
     }

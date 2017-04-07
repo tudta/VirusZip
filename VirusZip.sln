@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{2F5A8F19-EF59-8E74-EDD9-59A3B3E1A8FF}") = "Virus_zip", "Assembly-CSharp.csproj", "{C5DB0139-152C-1F45-84F5-C27BB263893C}"
+Project("{E7CC212C-D5F8-2D96-C9AD-96E5235E69E2}") = "VirusZip", "Assembly-CSharp.csproj", "{BBF5DFEF-5EC6-4AFB-B7CC-CA215EDAAB85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C5DB0139-152C-1F45-84F5-C27BB263893C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C5DB0139-152C-1F45-84F5-C27BB263893C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C5DB0139-152C-1F45-84F5-C27BB263893C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C5DB0139-152C-1F45-84F5-C27BB263893C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF5DFEF-5EC6-4AFB-B7CC-CA215EDAAB85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF5DFEF-5EC6-4AFB-B7CC-CA215EDAAB85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF5DFEF-5EC6-4AFB-B7CC-CA215EDAAB85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF5DFEF-5EC6-4AFB-B7CC-CA215EDAAB85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
