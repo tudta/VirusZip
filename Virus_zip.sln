@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{2F5A8F19-EF59-8E74-EDD9-59A3B3E1A8FF}") = "Virus_zip", "Assembly-CSharp.csproj", "{C5DB0139-152C-1F45-84F5-C27BB263893C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5DB0139-152C-1F45-84F5-C27BB263893C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5DB0139-152C-1F45-84F5-C27BB263893C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5DB0139-152C-1F45-84F5-C27BB263893C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5DB0139-152C-1F45-84F5-C27BB263893C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
